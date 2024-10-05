@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "A FastAPI app with PostgreSQL"
+authors = ["Anas Chaibi <anas.chaibi@insat.ucar.tn>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.0"
+uvicorn = "^0.31.0"
+SQLAlchemy = "^2.0.35"
+psycopg2-binary = "^2.9.9"
+alembic = "^1.13.3"
+pydantic = "^2.9.2"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+httpx = "^0.27.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

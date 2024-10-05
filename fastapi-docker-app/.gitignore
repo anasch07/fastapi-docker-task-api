@@ -1,0 +1,141 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+eggs/
+*.egg-info/
+.eggs/
+wheelhouse/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*,cover
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environments
+.env
+.env.*
+venv/
+ENV/
+env/
+.venv/
+
+# Poetry virtual environments
+poetry.lock
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# PyCharm project settings
+.idea/
+
+# VSCode project settings
+.vscode/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# Cython debug symbols
+cython_debug/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# MacOS files
+.DS_Store
+
+# Thumbnails
+._*
+
+# Alembic cache files
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+
+# Alembic SQLite database (if any)
+alembic.db
+
+# Test database
+test.db
+
+# Local SQLite databases
+*.sqlite3
+
+# Database migrations
+alembic/versions/__pycache__/
+
+# Docker files
+*.log
+docker-compose.override.yml
+
+# Ignore Docker volumes and artifacts
+docker-volume/
+
+# Ignore compiled Python files
+__pycache__/
+*.py[cod]
+
+# Ignore coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Ignore virtual environments
+.venv/
+
+# Ignore local configuration files
+local_settings.py
+
+# Ignore Python egg metadata
+*.egg
+*.egg-info/
+.eggs/
+
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore cache directories
+.cache/
